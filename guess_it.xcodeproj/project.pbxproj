@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55931F0425AF0F17003652FD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55931F0325AF0F17003652FD /* GameViewController.swift */; };
+		55931F0725AF0F6D003652FD /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55931F0625AF0F6D003652FD /* ScoreViewController.swift */; };
 		55E03CEE25AEFB08005DB42E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E03CED25AEFB08005DB42E /* AppDelegate.swift */; };
 		55E03CF025AEFB08005DB42E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E03CEF25AEFB08005DB42E /* SceneDelegate.swift */; };
 		55E03CF225AEFB08005DB42E /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E03CF125AEFB08005DB42E /* TitleViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55931F0325AF0F17003652FD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		55931F0625AF0F6D003652FD /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		55E03CEA25AEFB08005DB42E /* guess_it.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guess_it.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E03CED25AEFB08005DB42E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55E03CEF25AEFB08005DB42E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55931F0925AF1005003652FD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				55931F0325AF0F17003652FD /* GameViewController.swift */,
+				55E03CF125AEFB08005DB42E /* TitleViewController.swift */,
+				55931F0625AF0F6D003652FD /* ScoreViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		55E03CE125AEFB08005DB42E = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +70,9 @@
 		55E03CEC25AEFB08005DB42E /* guess_it */ = {
 			isa = PBXGroup;
 			children = (
+				55931F0925AF1005003652FD /* Controllers */,
 				55E03CED25AEFB08005DB42E /* AppDelegate.swift */,
 				55E03CEF25AEFB08005DB42E /* SceneDelegate.swift */,
-				55E03CF125AEFB08005DB42E /* TitleViewController.swift */,
 				55E03CF325AEFB08005DB42E /* Main.storyboard */,
 				55E03CF625AEFB0B005DB42E /* Assets.xcassets */,
 				55E03CF825AEFB0B005DB42E /* LaunchScreen.storyboard */,
@@ -137,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55931F0425AF0F17003652FD /* GameViewController.swift in Sources */,
 				55E03CF225AEFB08005DB42E /* TitleViewController.swift in Sources */,
+				55931F0725AF0F6D003652FD /* ScoreViewController.swift in Sources */,
 				55E03CEE25AEFB08005DB42E /* AppDelegate.swift in Sources */,
 				55E03CF025AEFB08005DB42E /* SceneDelegate.swift in Sources */,
 			);
